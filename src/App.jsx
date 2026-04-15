@@ -176,7 +176,7 @@ function App() {
           </motion.div>
           
           <div className="nav-links">
-            {['About', 'Skills', 'Projects', 'Experience', 'Education', 'Contact'].map((item) => (
+            {['About', 'Skills', 'Projects', 'Experience', 'Education', 'Contact', 'Resume'].map((item) => (
               <motion.button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -286,9 +286,9 @@ function App() {
                 transition={{ delay: 1.4 }}
               >
                 <motion.a
-                  href="#contact"
+                  href="#resume"
                   className="btn btn-primary"
-                  onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}
+                  onClick={(e) => { e.preventDefault(); scrollToSection('resume'); }}
                   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(139, 92, 246, 0.5)' }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -745,7 +745,7 @@ function App() {
               <h2>Download My Resume</h2>
               <p>Get a detailed overview of my skills, experience, and projects</p>
               <motion.a
-                href="#"
+                href="../public/samTech_resume.pdf"
                 className="btn btn-primary btn-large"
                 download
                 whileHover={{ scale: 1.1, boxShadow: '0 0 40px rgba(139, 92, 246, 0.6)' }}
