@@ -65,7 +65,7 @@ function App() {
         'Team management',
         ' Integrated logistics and supply chain management',
       ],
-      image: '../public/mangoplus_img.png?w=600',
+      image: '/mangoplus_img.png',
       github: 'https://github.com/Shamunmomin',
       live: 'https://play.google.com/store/apps/details?id=in.mangoplus',
     },
@@ -80,7 +80,7 @@ function App() {
         'Cash & Online Collection Tracking',
         'supplier management',
       ],
-      image: '../public/petrol_pump_img.png?w=600',
+      image: '/petrol_pump_img.png',
       github: 'https://github.com/Shamunmomin',
       live: 'https://fuelsathi.com/home',
     },
@@ -94,7 +94,7 @@ function App() {
         'Photo Gallery & Event Management',
         'Certificate Issuance System',
       ],
-      image: '../public/grampanchayat_img.png?w=600',
+      image: '/grampanchayat_img.png',
       github: 'https://github.com/Shamunmomin',
       live: 'https://gpshivkar.in/',
     },
@@ -233,7 +233,7 @@ function App() {
             >
               <div className="hero-glow"></div>
               <img
-                src="../public/profile4.jpeg"
+                src="/profile4.jpeg"
                 alt="Profile"
                 className="hero-image"
               />
